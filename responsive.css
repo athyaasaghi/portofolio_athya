@@ -66,6 +66,9 @@
     #page2 h6 {
         line-height: 1.5;
         font-size: 1.2em;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: justify;
     }
 
     
@@ -121,6 +124,20 @@
     .col-xs-12 h1 {
         font-size: 1.7em;
     
+   }
+
+
+   /* FOOTER */
+   .contact_section h6 {
+    font-size: 1.3em;
+   }
+
+   .contact_info {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 0;
 }
 }
 
