@@ -1,0 +1,108 @@
+.screenshot-gambar {
+  display: flex;
+}
+.now{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+ 
+.nav{
+  bottom: 20px;
+  transform: translate(-50%);
+  display: flex;
+  margin-top: 550px;
+  margin-left: -1050px;
+  margin-bottom: 200px;
+}
+.bar{
+  width: 50px;
+  height: 10px;
+  border:3px solid #ff9e02;
+  margin:6px;
+  cursor: pointer;
+}
+.bar:hover{
+  background-color: #ff9e02;
+
+}
+
+input[name="radio"]
+{
+  position: absolute;
+  visibility: hidden;
+  transform: scale(1.2);
+}
+ 
+.slider{
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;;
+
+}
+ 
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+ 
+.slide img{
+  width: 250px;
+  height: 500px;
+  margin-left: 20%;
+  transition: 1s;
+}
+
+#radio1:checked ~ .sh1{
+  margin-left:0;
+}
+#radio2:checked ~ .sh1{
+  margin-left:-20%;
+}
+#radio3:checked ~ .sh1{
+  margin-left:-40%;
+}
+#radio4:checked ~ .sh1{
+  margin-left:-60%;
+}
+#radio5:checked ~ .sh1{
+  margin-left:-80%;
+}
+#radio6:checked ~ .sh1{
+  margin-left:-60%;
+}
+#radio7:checked ~ .sh1{
+  margin-left:-80%;
+}
+
+#radio1:checked ~ .sh1 .img1{
+  transform: scale(1.5);
+}
+
+#radio2:checked ~ .sh2 .img2{
+  transform: scale(1.5);
+}
+
+#radio3:checked ~ .sh3 .img3{
+  transform: scale(1.5);
+}
+
+#radio4:checked ~ .sh4 .img4{
+  transform: scale(1.5);
+}
+
+#radio5:checked ~ .sh5 .img5{
+  transform: scale(1.5);
+}
+
+#radio6:checked ~ .sh6 .img6{
+  transform: scale(1.5);
+}
+
+#radio7:checked ~ .sh7 .img7{
+  transform: scale(1.5);
+}

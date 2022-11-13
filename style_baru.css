@@ -1,0 +1,270 @@
+#page1 h2 p {
+    color: white;
+    font-size: 20px;
+}
+
+#mainNav li a:hover {
+    color: rgb(98, 98, 182);
+}
+
+.contact_info {
+    text-align: center;
+
+}
+
+.inner_section {
+    text-align: center;
+}
+
+.wrapper-white {
+    background: white;
+}
+#page2 {
+    padding-top: 50px;
+}
+
+/* PROJECT/GALLERY */
+figure.effect-duke {
+    background: -webkit-linear-gradient(-45deg, #34495e 0%, #cc6055 100%);
+    background: linear-gradient(-45deg, #34495e 0%, #cc6055 100%);
+  }
+  
+  figure.effect-duke img,
+  figure.effect-duke p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+  }
+  
+  figure.effect-duke:hover img {
+    opacity: 0.1;
+    -webkit-transform: scale3d(2, 2, 1);
+    transform: scale3d(2, 2, 1);
+  }
+  
+  figure.effect-duke h2 {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  
+  figure.effect-duke p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid #fff;
+    text-transform: none;
+    font-size: 90%;
+    opacity: 0;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    -webkit-transform-origin: 50% -100%;
+    transform-origin: 50% -100%;
+  }
+  
+  figure.effect-duke:hover h2,
+  figure.effect-duke:hover p {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  
+  #gallery {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    justify-content: center;
+    z-index: 99;
+  }
+
+  figure img {
+    z-index: 99;
+  }
+
+
+.grid {
+    width: 100%;
+}
+.xs-none {
+    display: none;
+}
+
+figcaption p {
+    font-size: 20px;
+    width: 90%;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    color: rgb(58, 58, 100);
+}
+
+.section-title h6 {
+    font-size: 1.4em;
+}
+
+.col-xs-12 p{
+    font-size: 1.2em;
+}
+
+.col-xs-12 h1 {
+    font-size: 27px;
+}
+
+.col-xs-12 h1 a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(122, 122, 155);
+}
+
+.col-xs-12 h1 a:hover {
+    color: rgb(40, 40, 116);
+}
+
+
+
+/* SKILL */
+
+.service_icon.custom img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.service_icon.custom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px;
+}
+
+#service .container h6 {
+    font-size: 1.5em;
+    color:rgb(85, 76, 76);
+}
+
+#service .container h2 {
+    color: rgb(58, 58, 100);
+}
+
+.service_block h3 {
+    color: rgb(58, 58, 100);
+}
+
+.service_block p {
+    font-size: 1.2em;
+    color:rgb(85, 76, 76);
+}
+
+/* HADER */
+
+#header_wrapper {
+    height: 70px;
+}
+
+#header_wrapper .container {
+    margin-top: -10px;
+}
+
+.nav.navbar-nav a {
+    margin-left: 60px;
+}
+
+/* INTRO NAMA */
+
+.top_left_cont p {
+    font-size: 25px;
+    color: #ddd;
+    border-bottom: 1px dashed #ddd;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    padding-bottom: 10px;
+}
+
+.top_left_cont h3 {
+    border-bottom: 2px inset #ddd;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: -43px;
+}
+
+.top_left_cont {
+    padding-top: 230px;
+}
+
+.fa-twitter {
+    color: rgb(95, 121, 238);
+}
+
+.fa-facebook {
+    color: rgb(84, 84, 182);
+}
+
+.fa-linkedin {
+    color:rgb(17, 17, 138)
+}
+
+.linkedin a {
+    color: blue;
+}
+
+  .social_links {
+    position: relative;
+    z-index: 999;
+  }
+
+  .social_links li {
+    border: 1px solid rgb(18, 18, 19);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.social_links li a:hover {
+    background-color: #fff;
+    border-radius: 50%;
+} 
+
+/* TENTANG */
+#page2 h6 {
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+
+#page2 h2 {
+    color: rgb(58, 58, 100)
+}
+
+#page2 {
+    width: 50%;
+}
+
+/* FOOTER */
+.contact_section h6{
+    font-size: 1.5em;
+}
+
+body {
+    margin-left: 0px;
+    padding: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top_left_cont p {
+    font-size: 24px;
+    color: #ddd;
+}
+
+/* footer */
+.footer_wrapper {
+    z-index: 99;
+}

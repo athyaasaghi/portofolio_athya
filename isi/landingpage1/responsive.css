@@ -1,0 +1,282 @@
+@media screen and (max-width: 576px) {
+
+    .menu .brand h1 {
+        font-size: 1.7em;
+    }
+
+    .menu .brand p {
+        font-size: 1em;
+        margin-left: 20px;
+    }
+    .menu a {
+        font-size: 0.6em;
+    }
+
+    .hero {
+        min-height: 300px;
+        width: 70%;
+        background-size: cover;
+    }
+
+   .tulisan h1 {
+    font-size: 1.8rem;
+   }
+
+   .tulisan h3 {
+    padding-top: 10px;
+    font-size: 1.5rem;
+   }
+
+   .tulisan p{
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-style: italic;
+    width: 70%;
+    text-align: left;
+   }
+
+   .btn-tulisan {
+    margin-top: 20%;
+   }
+
+   .btn {
+    float: left;
+    margin-bottom: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+   }
+
+   .btn.download,
+   .btn.learn {
+    font-size: 1rem;
+   }
+
+   .service {
+    margin-top: 15px;
+    justify-items: center;
+    margin-left: 40px;
+    box-shadow: 5px 10px 10px #eee;
+   }
+
+   .services {
+    margin-left: 0;
+   }
+
+
+   .about {
+    margin: auto;
+    padding-top: 50px;
+    margin-left: 10px;
+   }
+
+
+   .penjelasan-video {
+    margin: auto;
+    margin-left: 20px;
+   }
+
+   .penjelasan-fitur {
+    width: 70%;
+    margin-left: 15px;
+   }
+
+   .penjelasan-fitur h1 {
+    font-size: 1.3em;
+    padding-left: 20px;
+   }
+
+   .penjelasan-fitur p{
+    margin: auto;
+    width: 80%;
+   }
+
+   .about {
+    width: 65%;
+   }
+
+   .about h1 {
+    font-size: 2rem;
+   }
+
+   .about p {
+    font-size: 1.2rem;
+    }
+
+   .penjelasan-video {
+    width: 65%;
+    }
+    
+    .penjelasan-video .penjelasan h1 {
+    font-size: 1.7rem;
+    text-align: center;
+    }
+    
+    .penjelasan p {
+    font-size: 1.2rem;
+    text-align: center;
+    }
+
+    .btn-video {
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+
+    .video video {
+        width: 95%;
+        margin-left: -20px;
+    }
+    
+   .bungkus {
+    grid-template-areas: 
+    'fitur-mobile'
+    'fitur-mobile-akhir'
+    'gambar-fitur';
+    margin-top: 40px;
+   }
+
+   .fitur-pertama1 {
+    grid-template-areas: 
+        'gambar1'
+        'user-friendly';
+    margin: auto;
+    width: 500px;
+    margin-left: 25px;
+   }
+
+   
+   .fitur-pertama2 {
+    grid-template-areas: 
+        'gambar2'
+        'user-friendly2';
+    margin: auto;
+    width: 500px;
+    margin-left: 25px;
+   }
+
+   .user-friendly {
+    padding-right: 0px;
+    margin-right: 120px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: -70px;
+}
+    
+   .user-friendly2 {
+    padding-right: 0px;
+    margin-right: 40px;
+    text-align: center;
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+   .user-friendly2 p,
+   .user-friendly p{
+    font-size: 1em;
+    text-align: center;
+   }
+   .gambar1 {
+    margin-bottom: 2%;
+    margin: auto;
+    margin-left: 40px;
+}
+
+   .gambar2 {
+    margin-bottom: 2%;
+    margin: auto;
+    margin-left: 120px;
+}
+
+    .gambar2 .pesan {
+        margin-left: 0px;
+    }
+  
+
+   .gambar-fitur{
+        margin-top: 20px;
+    }
+
+    .gambar-fitur img {
+        width: 200px;
+        margin-left: -50px;
+        height: 400px;
+    }
+
+    /* screenshotSHOT */
+
+    .screenshot {
+        width: 65%;
+    }
+
+    .screenshot h1 {
+        font-size: 2.5rem;
+    }
+
+    .screenshot p {
+        font-size: 1.3rem;
+        margin-left: 20px;
+    }
+
+    .screenshot .download-apk {
+        display: inline-block;
+    }
+
+    .screenshot .download-apk .apple {
+       margin-left: 70px;
+    }
+
+    .screenshot .download-apk .play {
+        margin-left: 50px;
+    }
+
+    /* SCRENSHOT GAMBAR */
+
+    .screenshot-gambar {
+        width: 30%;
+        margin-left: 20px;
+        padding-top: 100px;
+    }
+    .slide img {
+        width: 100%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+        
+    .nav{
+        bottom: 20px;
+        transform: translate(-50%);
+        display: flex;
+        margin: 0 auto;
+        background-color: rgb(32, 37, 37);
+        z-index: 9;
+        width: 50%;
+    }
+    .bar{
+        width: 50px;
+        height: 10px;
+        border:3px solid #ff9e02;
+        margin:6px;
+        cursor: pointer;
+    }
+
+    .footer {
+        height: 90px
+    }
+
+    .footer h1{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+
+    .footer p {
+        margin-left: 90px;
+    }
+
+}
+

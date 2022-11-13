@@ -1,0 +1,666 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    margin: 20px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding-top: -10px ;
+    margin-top: -20px;
+}
+
+.menu .brand h1 {
+    font-size: 2.5em;
+    color: rgb(75, 72, 72);
+    float: left;
+    padding-left: 50px;
+}
+
+.menu .brand p{
+    font-size: 1.5em;
+    color: rgb(75, 72, 72);
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+    margin-left: 10px;
+    padding-top: 10px;
+
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: rgb(75, 72, 72);
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.hero {
+    min-height: 800px;
+    background-image: url(img/hero/hero2.jpg);
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero .tulisan {
+    padding-top: 20px;
+    margin-top: 8%;
+}
+
+.tulisan h1 {
+    color: white;
+    font-size: 3.2rem;
+    opacity: 0.8;
+}
+
+.tulisan h3 {
+    color: white;
+    font-size: 2.5rem;
+    opacity: 0.8;
+}
+
+.tulisan p {
+    width: 30%;
+    margin-top: 50px;
+    color: white;
+    font-size: 1.7rem;
+    letter-spacing: 0.9;
+    line-height: 40px;
+    opacity: 0.9;
+    text-align:justify;
+}
+
+
+.btn-tulisan {
+    margin-top: 100px;
+}
+
+
+.btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 1em;
+}
+
+
+.btn.download {
+    background-color: #e69dd9;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    transition: 0.6s;
+}
+
+.btn.download:hover {
+    background-color: #ddd;
+    color: #861f75;
+}
+
+
+.btn.learn {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    transition: 0.6s;
+}
+
+.btn.learn:hover {
+    background-color: white;
+    color: #e07fd0;
+}
+
+.services {
+    margin-left: 7%;
+    margin-right: 7%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.service {
+    margin-top: -50px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    border-radius: 5%;
+}
+
+.service img {
+    margin-left: -20% ;
+}
+
+.service p {
+    text-align: center;
+    margin-left: -30%;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.service h3 {
+    font-size: 0.5rem;
+}
+
+.service p {
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+/* ABOUT VIDEO */
+.about {
+    display: grid;
+    margin-top: 6%;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 3rem;
+    opacity: 0.7;
+    font-weight: bolder;
+    letter-spacing: 0.5;
+}
+
+.about h1 span{
+    color: rgb(109, 109, 199);
+}
+
+.about p {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    width: 55%;
+    margin: auto;
+    text-align:center;
+}
+
+.penjelasan-video {
+    padding: 4%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin-left: 2%;
+}
+
+.penjelasan {
+    display: grid;
+    padding-right: 60px;
+}
+
+.penjelasan h1 {
+    margin-top: 20px;
+    opacity: 0.7;
+    letter-spacing: 0.5;
+}
+
+.penjelasan p {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.video img {
+    width: 200px;
+}
+
+.btn-video {
+    margin-top: 5%;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+.btn.btn.download-video {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 1em;
+}
+
+.btn.download-video {
+    background-color: #e4a8da;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+/* FITUR ATAS */
+
+.fitur {
+    min-height: 600px;
+    background-image: url(img/fitur/fitur2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.penjelasan-fitur {
+    margin-top: 20px;
+    opacity: 0.7;
+    letter-spacing: 0.5;
+    text-align: center;
+}
+
+.penjelasan-fitur p  {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    width: 55%;
+    margin-left: 20%;
+}
+
+
+/* FITUR BAWAH */
+.bungkus {
+    display:grid;
+    grid-template-areas: 
+       'fitur-mobile gambar-fitur fitur-mobile-akhir';
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 90px;
+    margin-left: 85px;
+    
+}
+
+.fitur-mobile {
+    grid-area: fitur-mobile;
+    float: left;
+    margin-right: -100px;
+}
+
+.gambar-fitur {
+    grid-area: gambar-fitur;
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+.gambar-fitur img {
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    width: 350px;
+    border-top: 3px solid rgb(104, 99, 99);
+    border-left: 3px solid rgb(104, 99, 99);
+    border-right: 3px solid rgb(104, 99, 99);
+    height: 500px;
+    
+}
+
+.fitur-mobile-akhir {
+    grid-area: fitur-mobile-akhir;
+    margin-left: -80px;
+}
+
+.fitur-pertama1 {
+    display: grid;
+    grid-template-areas: 
+    'user-friendly gambar1';
+ grid-template-columns: 2fr 1fr ;
+}
+
+.fitur-pertama2 {
+    display: grid;
+    grid-template-areas: 
+    'gambar2 user-friendly2';
+    grid-template-columns: 2fr 1fr ;
+}
+
+.user-friendly {
+    grid-area: user-friendly;
+}
+
+.user-friendly2 {
+    grid-area: user-friendly2;
+}
+
+.user-friendly {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.user-friendly p{
+    text-align: right;
+}
+
+.user-friendly2 p{
+    text-align: left;
+}
+
+.user-friendly2 {
+    text-align: left;
+    margin-left: -280px;
+    margin-right: 90px;
+}
+
+.gambar2 {
+    margin-bottom: 10%;
+    grid-area: gambar2;
+}
+
+.gambar1 {
+   margin-bottom: 20%;
+   grid-area: gambar1;
+}
+
+.gambar1 img {
+    width: 100px;
+    height: 100px
+}
+
+.gambar2 img {
+    width: 100px;
+    height: 100px
+}
+
+.gambar1 .piala,
+.gambar2 .pesan {
+    width: 80px;
+    height: 80px;
+}
+
+.gambar1 .piala {
+    margin-left: 10px ;
+}
+
+.gambar2 .pesan {
+    margin-left: 17px;
+}
+
+.user-friendly h1,
+.user-friendly2 h1 {
+    font-size: 1.5rem;
+    color: rgb(75, 71, 71);
+}
+
+/* screenshotSHOOT */
+.screenshot {
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-areas: 
+        'penjelasan-screenshot'
+        'download-apk';
+    grid-template-rows: 1fr 1fr;
+}
+
+.penjelasan-screenshot {
+    grid-area: penjelasan-screenshot;
+}
+
+.download-apk {
+    grid-area: download-apk;
+}
+
+.screenshot h1, p{
+    text-align: center;
+}
+
+.screenshot h1 {
+    padding-bottom: 35px;
+    opacity: 0.7;
+    letter-spacing: 0.5;
+    font-size: 3em;
+
+}
+
+.screenshot p {
+    font-size: 1.3em;
+    padding-bottom: 20px;
+    margin-left: 300px;
+    
+}
+
+.screenshot .download-apk {
+    margin: auto;
+    padding-top: 0px;
+    display: flex;
+    justify-items: flex-start;
+}
+
+.screenshot .download-apk img {
+    width: 300px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+.screenshot .download-apk .apple {
+    height: 60px;
+    width: 200px;
+}
+
+.screenshot .download-apk .play {
+    margin-top: -15px;
+    width: 240px;
+}
+
+.footer {
+    background-color: #e4a8da;
+    height: 50px;
+}
+
+.footer h1, p {
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+}
+
+.footer h1 {
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+    opacity: 0.5;
+    margin-left: 700px;
+    font-weight: 200;
+}
+
+.footer p {
+    margin-left: 20px;
+}
+
+/* PRODUCTS */
+.product {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    padding-bottom: 100px;
+  }
+  
+  .product-category {
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    height: 600px;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 600px;
+    margin-right: 40px;
+  }
+  
+  .product-image {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .discount-tag {
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+  }
+  
+  .card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .product-card:hover .card-btn {
+    opacity: 1;
+  }
+  
+  .card-btn:hover {
+    background: #ff7d7d;
+    color: #fff;
+  }
+  
+  .product-info {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+  }
+  
+  
+  .product-short-description {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+  }
+  
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
+  .collection-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .collection {
+    position: relative;
+  }
+  
+  .collection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .collection p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+  }
+  
+  .collection:nth-child(3) {
+    grid-column: span 2;
+    margin-bottom: 10px;
+  }
+  

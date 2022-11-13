@@ -1,0 +1,441 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(250, 226, 226)  50%, #FFB6C1 50%);
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.container {
+    max-width: 100%;
+}
+
+header {
+    background-color: rgb(255, 255, 255, 0);
+    height: 60px;
+    width: 100%;
+}
+
+.header-right {
+    float: right;
+    padding-right: 20px;
+    width: 50%;
+    margin-top: -30px;
+}
+
+.header-right li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.header-right li a {
+    color: rgb(196, 174, 174);
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.header-left h1 {
+    font-size: 30px;
+    color: rgb(196, 174, 174);
+    padding-left: 150px;
+    padding-top: 10px;
+}
+
+/* KONTEN */
+.judul-kanan {
+    float: right;
+    margin-top: 200px;
+    margin-right: 250px;
+}
+
+.judul-kanan h1 {
+    font-size: 50px ;
+    text-align: center;
+    font-family: 'huruf';
+    color: white;
+    font-weight: bolder;
+}
+
+
+.judul-kanan p {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(193, 218, 211);
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.judul-kiri {
+    float: left;
+    margin-top: 400px;
+    margin-left: 150px;
+    width: 40%;
+    height: 200px;
+   
+}
+
+.judul-kiri p {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 105, 180, 0.7);
+    font-weight: bolder;
+    text-align: left;
+}
+
+
+/* ISI KONTEN */
+.gambar-kiri {
+    float: left;
+    position: absolute;
+    top: 800px;
+    margin-left: 140px;
+}
+
+.gambar-kiri img {
+    max-width: 100%;
+    height: 400px;
+    box-shadow: 3px 3px 5px 7px rgba(0,0,0, 0.3);
+}
+
+.text-kanan {
+    float: right;
+    background-color: rgb(255, 250, 205, 0.4);
+    top: 800px;
+    margin-left: 50%;
+    position: absolute;
+    width: 50%;
+    height: 400px;
+}
+
+.text-kanan h1 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+.text-kanan p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: rgba(255, 105, 180, 0.7);
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.isi {
+    width: 100%;
+    margin-top: 1230px;
+    height: 400px;
+}
+
+.isi .gambar_2 {
+    float: right;
+    padding-right: 140px;
+}
+
+.isi .gambar_2 img {
+    max-width: 750px;
+    height: 400px;
+    box-shadow: 3px 3px 5px 7px rgba(0,0,0, 0.3);
+}
+
+.text_2 h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 90px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.text_2 p, 
+.text_2 h3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: rgba(255, 105, 180, 0.7);
+    font-weight: bold;
+    margin-left: 130px;
+    padding-bottom: 20px;
+    padding-bottom: 30px;
+    width: 40%;
+}
+
+
+/* GALLERY KIRI */
+
+.gallery {
+    padding-top: 200px;
+    margin: auto;
+    width: 100%;
+    margin-left: 70px;
+}
+
+.bungkus img {
+    width: 380px;
+    height: 500px;
+    box-shadow: 3px 3px 5px 4px rgba(0,0,0, 0.3);
+    border-radius: 10px;
+}
+
+
+.gallery .bungkus {
+    float: left;
+    margin-bottom: 100px;
+    transition: 1s;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.gallery-1 .bungkus {
+    float: left;
+    margin-bottom: 100px;
+    transition: 1s;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.bungkus:hover {
+    transform: scale(1.2);
+
+}
+
+.gallery .bungkus span {
+    display: block;
+    position: absolute;
+    line-height: 100px;
+    color: #DB7093;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 65px;
+    transition: 1s;
+}
+
+.gallery .bungkus:hover span {
+    transform: scale(1.2);
+}
+
+.gallery .bungkus p {
+    display: block;
+    position: absolute;
+    line-height: 100px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 28px;
+    transition: 1s;
+    padding-left: 90px;
+}
+
+
+/* GALERRY KANAN */
+
+.gallery-1 .bungkus span{
+    display: block;
+    position: absolute;
+    line-height: 100px;
+    color: #DB7093;
+    font-family: 'huruf';
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 65px;
+    transition: 1s;
+}
+
+.gallery-1 .bungkus:hover span {
+    transform: scale(1.2);
+}
+
+.gallery-1 .bungkus p {
+    display: block;
+    position: absolute;
+    line-height: 100px;
+    color: white;
+    font-family: 'huruf';
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 28px;
+    transition: 1s;
+    padding-left: 80px;
+}
+
+/* BTN */
+
+.gallery .bungkus .btn,
+.gallery-1 .bungkus .btn {
+    display: block;
+    position: absolute;
+    color: white;
+    font-family: 'huruf';
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -60px;
+    font-weight: bolder;
+    background-color: #DB7093;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 150px;
+    border-radius: 10%;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+.gallery .bungkus:hover .btn,
+.gallery-1 .bungkus:hover .btn {
+    transform: scale(1.2);
+    font-size: 20px;
+}
+
+/* PESAN */
+.container-pesan {
+    width: 50%;
+    height: 500px;
+    margin-top: 600px;
+    margin-left: 25%;
+    background-color: RGBA( 255, 250, 240, 0.5 );
+    margin-bottom: 70px;
+}
+
+.container-pesan h3 {
+    margin-left: 25%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: 'huruf';
+    color: #DB7093;
+    font-weight: bold;
+}
+
+.container-pesan p {
+    margin-left: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'huruf';
+    font-size: 18px;
+    color: #DB7093;
+    font-weight: bold;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    margin-left: 25%;
+    padding-top: 10px;
+    border: 3px solid #bbb;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    margin-left: 25%;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #bbb;
+}
+
+.container-pesan .kirim {
+    color: white;
+    font-family: 'huruf';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#e59db5 ;
+    font-weight: bolder;
+    box-shadow: 0 7px 3px rgba(0,0,0, 0.7);
+    cursor: pointer;
+}
+
+.container-pesan .kirim:active {
+    box-shadow: none;
+    position: relative;
+    top: 9px;
+}
+
+.container-pesan .kirim:hover {
+    background-color: lightblue;
+    color: #DB7093;
+}
+
+/* KONTAK */
+.container-hubungi {
+    margin-top: 140px;
+    width: 100%;
+    margin-left: 20%;
+    margin-bottom: 300px;
+}
+
+.container-hubungi .kontak{
+    float: left;
+    width: 50%;
+}
+
+
+  .facebook span,
+  .whatsap span,
+  .instagram span {
+    background-color: rgba(250, 174, 215, 1.0);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    float: left;
+    margin-left: 55px;
+  }
+
+  .container-hubungi .penjelasan {
+    float: right;
+    width: 70%;
+    margin-top: -80px;
+  }
+
+  .container-hubungi .penjelasan h1 {
+    width: 50%;
+    font-family: 'huruf';
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px groove #FFFACD;
+  }
+
+  /* FOOTER */
+  .footer {
+    background-color: rgb(224, 255, 255, 0.5);
+    height: 60px;
+  }
+
+  .footer h2 {
+    font-size: 20px;;
+    color: #DB7093;
+    font-weight: bold;
+    font-family: 'huruf';
+    text-align: center;
+    padding-top: 20px;
+  }

@@ -1,0 +1,126 @@
+@media screen and (max-width: 780px){
+    .sm-none{
+        display:none !important;
+    }
+    .sm-block{
+        display:block;
+    }
+    #header_wrapper {
+        background-color: rgb(206, 206, 206);
+    }
+
+    #mainNav li a {
+        color: #eee ;
+    }
+
+    .navbar-inverse {
+        background-color: rgb(206, 206, 206);
+        margin-top: 10px;
+        width:100%;
+    }
+
+    /* HERO */
+    .top_left_cont {
+        padding-top: 150px;
+        width: 100%;
+    }
+
+    .top_left_cont h2 {
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+
+    .top_left_cont p {
+        font-size: 12px;
+        color: #ddd;
+        width: 50%;
+        padding-bottom: 0px;
+        margin-left: 27%;
+    }
+    
+    .top_left_cont h3 {
+        border-bottom: 1px inset #ddd;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .social_links {
+        margin-top: -60px;
+        margin-top: 20px;
+    }
+
+    .social_links li {
+        margin-top: 20px;
+        border: 1px solid rgb(18, 18, 19, 0);
+        z-index: 999;
+    
+    }
+    
+    .social_links li a:hover {
+        background-color: #fff;
+        border-radius: 50%;
+    }
+
+
+    /* ABOUT */
+    #page2 h6 {
+        line-height: 1.5;
+        font-size: 1.2em;
+    }
+
+    
+    #page2 {
+        width: 100%;
+    }
+
+    #page2 h2 {
+        font-size: 1.7em;
+    }
+
+    /* SKILL */
+
+    .service_wrapper {
+        margin-top: -40px;
+        padding-top: 0px;
+    }
+
+    #service .container h2 {
+        font-size: 1.7em;
+    }
+
+    #service .container h6 {
+        font-size: 1.3em;
+    }
+
+    /* PROJECT */
+
+    .section-title h2 {
+        font-size: 1.7em;
+    }
+
+    .section-title h6 {
+        font-size: 1.1em;
+    }
+
+    #gallery {
+        margin-top: -50px;
+        padding-bottom: 60px;
+        display: grid;
+        justify-content: center;
+      }
+    
+   .grid {
+        background-color: aqua;
+    }
+    
+    figcaption p {
+        font-size: 1.5m;
+        width: 90%;
+    }
+    
+    .col-xs-12 h1 {
+        font-size: 1.7em;
+    
+}
+}
+

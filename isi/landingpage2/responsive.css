@@ -1,0 +1,315 @@
+
+
+@media (min-width: 412px) and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+
+    /* HEADER */
+
+    .header-left h1 {
+        font-size: 23px;
+        padding-left: 0px;
+    }
+
+    .header-left h1 {
+        font-size: 23px;
+    }
+    .header-right li{
+        margin-left: 50px;
+    }
+
+    .header-right li a {
+        font-size: 14px;
+        position: absolute;
+    }
+
+    /* JUDUL/PEMBUKAAN BAGIAN KANAN*/
+
+    .judul-kanan {
+        margin-right: 0;
+        width: 50%;
+        margin-top: 60px;
+    }
+
+    .judul-kanan h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .judul-kanan p {
+        font-size: 20px;
+    }
+
+    /* JUDUL/PEMBUKAAN BAGIAN KIRI */
+
+    .judul-kiri {
+        width: 50%;
+        margin-left: 0px;
+        margin-top: 230px;
+        margin-bottom: 10px;
+    }
+
+    .judul-kiri p{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    /* GAMBAR 1*/
+
+    .gambar-kiri {
+        margin-left: 0px;
+        margin-top: -70px;
+    }
+
+    .gambar-kiri img {
+        width: 45%;
+        margin-left: 15px;
+    }
+
+    .text-kanan {
+        margin-top: -70px;
+        height: 500px;
+    }
+
+    .text-kanan h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .text-kanan p {
+        font-size: 15px;
+        padding-right: 10px;
+    }
+
+    /* GAMBAR 2 */
+
+    .isi {
+        padding-top: 5px;
+    }
+
+    .isi .gambar_2 {
+        float: right;
+    }
+
+    .isi .gambar_2 img {
+        max-width: 60%;
+        margin-right: -120px;
+        float: right;
+    }
+
+    .text_2 {
+        padding-top: 0px;
+    }
+
+    .text_2 h2 {
+        margin-top: -100px;
+        width: 50%;
+        font-size: 30px;
+        display: inline-block;
+        position: absolute;
+    }
+
+    .text_2 p {
+        margin-left: 15px;
+        width: 40%;
+        margin-top: -50x;
+        font-size: 15px;
+        margin-top: 80px;
+        position: absolute;
+    }
+
+    .text_2 h3 {
+        margin-left: 15px;
+        width: 40%;
+        margin-top: -50x;
+        font-size: 15px;
+        margin-top: 280px;
+        position: absolute;
+    }
+
+    /* GALLERY */
+
+    .gallery {
+        padding-top: 100px;
+        width: 50%;
+        margin-left: 80px;
+    }
+    
+    .bungkus img {
+        width: 250px;
+        height: 300px;
+    }
+    
+    
+    .gallery .bungkus {
+        transition: 1s;
+        padding-top: 20px;
+    }
+    
+    .gallery-1 .bungkus {
+        transition: 2s;
+    }
+    
+    .gallery .bungkus:hover {
+        transform: scale(1.2);
+    
+    }
+
+    .gallery-1 .bungkus:hover {
+        transform: scale(1.5);
+    }
+    
+    .gallery .bungkus span {
+        font-size: 19px;
+        transition: 1s;
+        margin-left: -30px;
+    }
+    
+    .gallery .bungkus:hover span {
+        transform: scale(1.5);
+    }
+    
+    .gallery .bungkus p {
+        font-size: 13px;
+        transition: 1s;
+    }
+    
+    
+    /* GALERRY KANAN */
+    .gallery-1 {
+        padding-top: 100px;
+        width: 50%;
+        margin-left: 50px;
+    }
+    
+    .gallery-1 .bungkus span{
+        font-size: 18px;
+        transition: 1s;
+        margin-left: -30px;
+    }
+    
+    .gallery-1 .bungkus:hover span {
+        transform: scale(1.5);
+    }
+    
+    .gallery-1 .bungkus p {
+        font-size: 13px;
+        transition: 1s;
+    }
+    
+    /* BTN */
+    
+    .gallery .bungkus .btn,
+    .gallery-1 .bungkus .btn {
+        font-size: 13px;
+        margin-top: -60px;
+        width: 50px;
+        height: 15px;
+        padding: 10px;
+        margin-left: 100px;
+        transition: 1s;
+    }
+    
+    .gallery .bungkus:hover .btn,
+    .gallery-1 .bungkus:hover .btn {
+        transform: scale(1.2);
+        font-size: 18px;
+    }
+    
+    /* PESAN */
+
+    .container-pesan {
+        width: 80%;
+        height: 300px;
+        margin-top: 1500px;
+        margin-left: 40px;
+        background-color: wheat;
+        opacity: 0.5;
+    }
+    
+    .container-pesan h3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 18px;
+        font-family: 'huruf';
+        color: #DB7093;
+        font-weight: bold;
+    }
+    
+    .container-pesan p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    input {
+        width: 200px;
+        height: 20px;
+    }
+    
+    textarea {
+        width: 200px;
+        height: 20px;
+    }
+    
+    .container-pesan .kirim {
+        font-size: 16px;
+        height: 30px;
+        padding-top: 4px;
+    }
+    
+
+    /* HUBUNGI/KONTAK */
+
+    .container-hubungi {
+        margin-top: 70px;
+        width: 50%;
+        margin-left: 10%;
+        margin-bottom: 300px;
+    }
+
+    .container-hubungi .kontak{
+        float: left;
+        width: 50%;
+    }
+    
+    
+      .facebook span,
+      .whatsap span,
+      .instagram span {
+        width: 70px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 20px;
+        margin-left: 55px;
+        margin-bottom: 10px;
+      }
+
+      .container-hubungi .penjelasan {
+        position: absolute;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 170px;
+      }
+    
+      .container-hubungi .penjelasan h1 {
+        width: 40%;
+        font-family: 'huruf';
+        font-size: 15px;
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-bottom: 10px;
+      }
+
+      /* FOOTER */
+
+      .footer {
+        height: 30px;
+      }
+    
+      .footer h2 {
+        font-size: 15px;;
+        padding-top: 5px;
+      }
+}
