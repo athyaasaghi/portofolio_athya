@@ -14,7 +14,7 @@ const nomorsurat = getURl('nomorsurat');
 console.log(nomorsurat);
 
 function getSurat() {
-    fetch(`Access-Control-Allow-Origin:https://equran.id/api/surat/${nomorsurat}`)
+    fetch(`https://equran.id/api/surat/${nomorsurat}`)
     .then(response => response.json())
     .then(response => {
 
