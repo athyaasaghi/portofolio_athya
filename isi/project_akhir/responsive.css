@@ -1,0 +1,59 @@
+@media (max-width: 576px) {
+
+    .menu-toggle {
+        margin-bottom: 100px;
+      }
+
+    .header {
+        height: 50px;
+    }
+    
+    .carousel-item img {
+        margin-bottom: 50px;
+        height: 500px;
+      }
+
+      .text {
+        top: 70px;
+        font-size: 1.7em;
+      }
+
+      .carousel-caption{
+        height: 420px;
+      }
+
+      .carousel-caption h1 {
+        font-size: 1.5em;
+      }
+
+      #konten {
+        margin-top: -20px;
+      }
+
+    .flip-card-front img {
+        height: 350px;
+    }
+
+    .flip-card-back img {
+        height: 350px;
+    }
+
+    .flip-card {
+        margin-bottom: 50px;
+        height: 400px;
+    }
+
+    .penjelasan h1 {
+        font-size: 1.5em;
+    }
+
+    .penjelasan p {
+        font-size: 1em;
+    }
+
+    .col h1 {
+        font-size: 1.5em;
+    }
+
+
+}
